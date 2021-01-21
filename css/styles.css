@@ -1,7 +1,18 @@
 * {
   font-family: "Noto Sans JP", sans-serif;
   color: #fff;
-  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline #fff;
+}
+
+#hex-value {
+  font-size: 72px;
 }
 
 .container {
@@ -10,4 +21,23 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.left-b-align {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.left-b-align span {
+  font-size: 28px;
+  padding: 0 0 0 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .left-b-align {
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+  }
 }

@@ -1,6 +1,6 @@
 # Hex Clock
 
-(✿╹◡╹) - "24 hours hexadecimal color clock runs from #000000 to #235959"
+(✿╹◡╹) - "24 hours hexadecimal color clock - from #000000 to #235959"
 
 ## :runner: To run this project ?
 

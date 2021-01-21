@@ -19,4 +19,5 @@ const tick = () => {
   // call the function when passes 1 second
   setTimeout(tick, 1000);
 };
+
 tick();
